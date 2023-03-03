@@ -140,28 +140,19 @@ img {
 }
 
 @media screen and (max-width: 480px ) {
-    .lessons .col {
-        width: 100%;
-        margin-bottom: 5em;
+    html {
+        font-size: 1.4em;
     }
-    .why-us .col-left {
+    
+    .lessons .col, .why-us .col-left, .steps .col, .why-us .col-right{
         width: 100%;
-        margin-bottom: 5rem;
     }
 
-    .steps .col {
-        width: 100%;
-        margin-bottom: 5rem
+    .card, .col img  {
+        margin-bottom: 3rem;
     }
-
-    h1 {
-        font-size: 3em;
-    }
-
-    h2 {
-        font-size: 2.5em;
-    }
+    
     .steps .col img {
         height: 300px;
+
     }
-}
